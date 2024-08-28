@@ -1,0 +1,18 @@
+.Pagination-container{
+    padding: 10px 0px;
+}
+
+.Pagination-container-previous, 
+.Pagination-container-next,
+.Pagination-container-total{
+   padding: 5px 10px;
+    font-size: 15px;
+}
+@media all and (max-width:400px) {
+    .Pagination-container-previous, 
+    .Pagination-container-next,
+    .Pagination-container-total{
+           font-size: 10px;
+           padding:3px 6px;
+}
+}
